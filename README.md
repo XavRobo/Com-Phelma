@@ -1,1 +1,18 @@
 # Com-Phelma
+
+placer ce dossier dans home
+ouvrir un terminal dans le dossier et changer les autorisations:
+  chmod a+rwx abram ecrire logbox main
+
+pour executer ouvrir main
+
+optionel (alias):
+ouvrir dans home un terminal
+changer le texte de .bashrc:
+  atom .bashrc &
+ajouter a la fin de bashrc:
+  alias com="~/COM/main"
+sauvegarder et quitter
+dans le terminal sourcer bashrc:
+  source .bashrc
+maintenant vous pouvez executer le chat avec com
