@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+while true
+  do
+    echo $USER $(date +%H:%M)": "$(~/COM/abram)>> ~/../broyerlo/COM/message.txt
+    sleep 1
+  done
